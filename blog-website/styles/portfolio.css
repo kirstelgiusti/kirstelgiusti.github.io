@@ -1,0 +1,49 @@
+
+
+body {
+    font-family: 'Arial', sans-serif;
+    background-color: #f0f0f0;
+    color: #333;
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    background-color: #496587;
+    padding: 20px;
+    text-align: center;
+    color: #fff;
+    padding-bottom: 0%; /*removed the extra space under the logo*/ 
+}
+
+header img { /*logo*/ 
+    width: 150px;
+    height: auto;
+}
+
+nav {
+    background-color: #0E274F;
+    text-align: center;
+    padding: 10px 0;
+    display: flex;
+    justify-content: space-evenly;
+}
+
+nav a { /*buttons*/
+    color: #fff;
+    text-decoration: none;
+    padding: 10px 20px;
+    margin: 0 10px;
+    display: block;
+    transition: background-color 0.3s ease; /*makes hover transition smooth*/
+    width: 100%; /*makes button containers use the entire space available*/ 
+}
+
+nav a:hover {
+background-color: #DFE2E5; 
+color: #0E274F;
+}
+
+main {
+    padding: 20px;
+}
