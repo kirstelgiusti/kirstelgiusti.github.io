@@ -1,8 +1,9 @@
 
 
+
         body {
             font-family: 'Arial', sans-serif;
-            background-color: #f0f0f0;
+            background-color:#DFE2E5;
             color: #333;
             margin: 0;
             padding: 0;
@@ -48,3 +49,72 @@
             padding: 20px;
         }
   
+
+        .bannerpic { 
+            max-width: 100%;
+            overflow: hidden;
+        }
+
+       .bannerpic img {
+        width: 100%;
+        height: auto;
+       }
+
+.about {
+    font-size:xx-small;
+    text-align: center;
+    padding: 0;
+    background-color: #496587;
+    color: #DFE2E5;
+    margin-top: -4px; /* there was a tiny line between this and the banner pic above, this was the only way I could remove it*/ 
+
+}
+
+.about h1 {
+    margin: 0%;
+    padding: 0.8%;
+   line-height: 1;
+   font-weight: 100;
+}
+
+
+.clientpic {
+    margin-top: 100px;
+    margin-left: 150px;
+    margin-bottom: 100px;
+}
+
+.clientpic img {
+    height: 400px;
+    width: auto;
+}
+
+.text {
+    color: #0E274F;
+    margin-left: 500px;
+    margin-right: 150px;
+    margin-top: -500px;
+    text-align: justify;
+}
+
+.title1 { /*meet claudia*/ 
+    font-weight: bold;
+    font-size:xx-large;
+}
+
+.title2 { /*photography style */ 
+   font-weight: bold;
+   font-size:xx-large;
+   margin-top: 25px;
+}
+
+.text1 {
+margin-top: 25px;
+}
+
+.text2 {
+    margin-top: 25px;
+}
+
+
+
