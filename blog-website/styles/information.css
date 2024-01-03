@@ -47,3 +47,38 @@ color: #0E274F;
 main {
     padding: 20px;
 }
+
+
+/*main css ^^ */
+
+.nav2 {
+    font-size:xx-small;
+    text-align: center;
+    padding: 0;
+    background-color: #496587;
+    color: #DFE2E5;
+    margin-top: -4px;  
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+.nav2 h1 {
+    margin: 0%;
+    padding: 0.8%;
+   line-height: 1;
+   font-weight: 100;
+   width: 100%;
+   }
+
+.nav2 :hover {
+    color: #0E274F;
+    background-color: #DFE2E5;
+    transition: background-color 0.3s ease;
+}
+
+.styles {
+    color: #0E274F;
+    font-family: Arial, Helvetica, sans-serif;
+    margin-left: 30px;
+}
