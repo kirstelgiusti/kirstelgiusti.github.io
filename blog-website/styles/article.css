@@ -47,3 +47,35 @@ color: #0E274F;
 main {
     padding: 20px;
 }
+
+/* nav bar ^^ */
+
+.shootbanner img{
+    width: 100%;
+    height: auto;
+}
+
+
+.shoottitle h1{
+    color: #DFE2E5;
+    margin-top: -350px;
+    text-align: right; /* IMP!! the title was changed to the right as I changed the banner pic from the figma plan, this is because with desktop dimensions it did not look clean, therefore I changed the alignment to make the title appear on the wall side*/ 
+    margin-right: 40px;
+    font-size: 240%;
+    font-weight: 50;
+    }
+
+.shootpics {
+    display: flex;
+    margin-top: 305px;
+}
+
+.shootpics img{
+    width: 25%;
+    height: auto;
+    transition: opacity 0.3s ease;
+}
+
+.shootpics img:hover{
+    opacity: 0.7;
+}

@@ -2,7 +2,7 @@
 
 body {
     font-family: 'Arial', sans-serif;
-    background-color: #f0f0f0;
+    background-color:#496587;
     color: #333;
     margin: 0;
     padding: 0;
@@ -47,3 +47,48 @@ color: #0E274F;
 main {
     padding: 20px;
 }
+
+
+/* ^^ nav bar ^^ */ 
+
+.title{
+    color: #DFE2E5;
+    margin-left: 35px;
+}
+
+
+/* form content*/ 
+
+form {
+    width: 95%;
+    margin: 0 auto;
+    color: #DFE2E5;
+  }
+
+  label {
+    display: block;
+    margin-bottom: 8px;
+  }
+
+  input, textarea {
+    width: 100%;
+    padding: 8px;
+    margin-bottom: 16px;
+    box-sizing: border-box;
+  }
+
+  button {
+    background-color:#0E274F;
+    color:#DFE2E5;
+    padding: 10px 15px;
+    border: none;
+    cursor: pointer;
+    align-content: center;
+    width: 100%;
+  }
+
+  button:hover{
+    background-color: #051022;
+    transition-duration: 0.2s;
+  }
+
